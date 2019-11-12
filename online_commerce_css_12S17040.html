@@ -1,0 +1,187 @@
+<html>
+
+<head>
+    <title>It's my profile</title>
+    <style>
+        .head1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+            font-size: 24px;
+            color: white;
+            background: rgb(13, 32, 66);
+
+        }
+
+        .head2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            color: white;
+            background: rgb(13, 32, 66);
+        }
+        .button {
+            color: white;
+            background-color: orangered;
+            padding: 10px 132px;
+        }
+
+        .teks {
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .bank {
+            padding-right: 191px;
+        }
+
+        .aha {
+            color: grey;
+            font-size: 11px
+        }
+        
+        
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <h1 class="head1" align="center">
+        FORMULIR PENGEMBALIAN DANA 
+        <p>Formulir hanya berlaku untuk pembayaran melalui Bank Transfer dan COD. Untuk Kartu
+        Kredit, Kredivo dan Doku Installment, dana akan dikembalikan ke limit kartu.</p>
+    </h1>
+
+    <hr>
+
+    <form>
+        <table align="center">
+            <tr>
+                <td><b>Nomor Order / Pesanan:</b></td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="no" type="string" size="40" placeholder="Nomor pesanan anda">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <b>Alamat Email Sesuai Pesanan:</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input name="email" type="text" size="40" placeholder="youremail@gmail.com">
+                    </p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <b>Nama Bank:</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <select class="bank" ; name="rating">
+                            <option selected>Pilih Nama Bank</option>
+                            <option>BNI</option>
+                            <option>BCA</option>
+                            <option>MANDIRI</option>
+                            <option>BRI</option>
+                            <option>SYARIAH</option>
+                            <option>DANAMON</option>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Nomor Rekening</b>
+                </td>
+            <tr>
+            <tr>
+                <td>
+                    <p>
+                        <input name="rek" type="string" size="40" placeholder="Nomor rekening anda">
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="aha">
+                    <p><i>Masukkan 10 digit nomor rekening Anda.</i></p>
+                </td>
+            </tr>
+            <br>
+
+
+            <tr>
+                <td>
+                    <b>Nama Pemilik Rekening:</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input name="pemilik" type="string" size="40" placeholder="nama customer"  checked>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Nama Cabang Bank:</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input name="cabang" type="string" size="40" placeholder="nama kantor cabang" checked>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Nama Kota Cabang Bank</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input name="kota" type="string" size="40" placeholder="nama kota cabang" checked>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>
+
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class=" button"><b>Submit</b></button>
+
+                </td>
+            </tr>
+
+
+        </table>
+        <p class="teks"><b>memasukkan data pada formulir diatas maka Anda telah mengetahui dan menyetujui Kebijakan
+                Privasi Lazada.</b> <a href="#">https://www.lazada.co.id/privacy-policy/ </a> </p>
+    </form>
+
+</body>
+
+</html>

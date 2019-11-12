@@ -1,0 +1,195 @@
+<html>
+
+<head>
+    <h1>Formulir Pendaftaran Mahasiswa Baru</h1>
+    <tr>
+        <td colspan="2">
+            <hr />
+        </td>
+    </tr>
+</head>
+<tr>
+    <td colspan="2">
+        <h2>Data Diri</h2>
+    </td>
+</tr>
+
+<body>
+    <form action="Data Diri" method="POST">
+
+        <table border="0">
+
+
+            <tr>
+                <td>Nama lengkap </td>
+
+
+                <td><input type="text" name="pengguna">(maks, 60 karakter)</td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir</td>
+                <td><select type="datetime" name="tanggal lahir">
+                        <option selected></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>...</option>
+                    </select>
+                    <select type="datetime" name="bulan">
+                        <option selected></option>
+                        <option>Januari</option>
+                        <option>Februari</option>
+                        <option>Maret</option>
+                        <option>April</option>
+                        <option>Mei</option>
+                        <option>Juni</option>
+                        <option>Agustus</option>
+                        <option>September</option>
+                        <option>Oktober</option>
+                        <option>November</option>
+                        <option>Desember</option>
+                    </select>
+                    <select type="datetime" name="tahun lahir">
+                        <option selected></option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="alamat email"></td>
+
+            </tr>
+            <tr>
+                <td>No. Telepon </td>
+
+                <td><input type="tel" telepon="no telepon">(maks, 10 angka)</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" Jenis Kelamin="Perempuan" value="Perempuan">Perempuan
+
+                    <input type="radio" Jenis Kelamin="Laki-laki" value="Laki-laki">Laki-laki </td>
+
+
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat" rows="4" cols="36"></textarea></td>
+
+            </tr>
+            <tr>
+                <td>Kota/Kabupaten</td>
+                <td><input type="text" name="nama kota/Kabupaten"></td>
+
+            </tr>
+            <tr>
+                <td>Provinsi</td>
+                <td><input type="text" name="nama provinsi"></td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <hr>
+                    </hr>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <h3>Kualifikasi</h3>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <table border="0">
+                        <tr>
+                            <td align="centre"><b>Jenjang</b></td>
+                            <td align="centre"><b>Tahun lulus</b></td>
+                            <td align="centre"><b>Asal sekolah</b></td>
+                            <td align="centre"><b>Kota/kabupaten asal sekolah</b></td>
+                            <td align="centre"><b>Provinsi asal sekolah</b></td>
+                        </tr>
+                        <tr>
+                            <td>Sekolah Dasar</td>
+                            <td><input type="text" name="tahun lulus" size="8"></td>
+                            <td><input type="text" name="asal sekolah" size="25"></td>
+                            <td><input type="text" name="asal kabupaten" size="40"></td>
+                            <td><input type="text" name="provinsi asal" size="25"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Sekolah Menengah Pertama</td>
+                            <td><input type="text" name="tahun lulus" size="8"></td>
+                            <td><input type="text" name="asal sekolah" size="25"></td>
+                            <td><input type="text" name="asal kabupaten" size="40"></td>
+                            <td><input type="text" name="provinsi asal" size="25"></td>
+                        </tr>
+                        <tr>
+                            <td>Sekolah Menengah Atas</td>
+                            <td><input type="text" name="tahun lulus" size="8"></td>
+                            <td><input type="text" name="asal sekolah" size="25"></td>
+                            <td><input type="text" name="asal kabupaten" size="40"></td>
+                            <td><input type="text" name="provinsi asal" size="25"></td>
+                        </tr>
+                    </table>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <hr>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button>kirim formulir </button>
+                    <button>reset </button>
+                </td>
+            </tr>
+
+
+        </table>
+
+
+    </form>
+</body>
+
+</html>
